@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEEDLE — Piercing Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#">NEEDLE<span>.</span></a>
+    <nav>
+      <a href="#masters">Мастера</a>
+      <a href="#services">Услуги</a>
+      <a href="#about">О студии</a>
+      <a class="nav-button" href="#booking">Записаться</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">PIERCING STUDIO / ALMATY</p>
+        <h1>Твой стиль.<br><span>Твоя игла.</span></h1>
+        <p class="hero-text">
+          Пирсинг без лишнего пафоса: аккуратно, стерильно и с мастерами,
+          которые помогают подобрать украшение под тебя.
+        </p>
+        <div class="actions">
+          <a class="button" href="#booking">Записаться</a>
+          <a class="button ghost" href="#masters">Наши мастера</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="circle">✦</div>
+        <p>NEW<br>DROP</p>
+      </div>
+    </section>
+
+    <section id="masters" class="section">
+      <div class="section-title">
+        <p class="eyebrow">01 / TEAM</p>
+        <h2>Мастера</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="avatar">A</div>
+          <h3>Алина</h3>
+          <p>Ear piercing · Minimal</p>
+          <span>от 7 000 ₸</span>
+        </article>
+        <article class="card">
+          <div class="avatar">M</div>
+          <h3>Макс</h3>
+          <p>Industrial · Unusual</p>
+          <span>от 8 000 ₸</span>
+        </article>
+        <article class="card">
+          <div class="avatar">K</div>
+          <h3>Кира</h3>
+          <p>Nose · Lip · Custom</p>
+          <span>от 7 500 ₸</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section dark">
+      <div class="section-title">
+        <p class="eyebrow">02 / SERVICES</p>
+        <h2>Услуги</h2>
+      </div>
+      <div class="service-list">
+        <div><span>01</span><strong>Мочка уха</strong><b>от 6 000 ₸</b></div>
+        <div><span>02</span><strong>Хрящ / Helix</strong><b>от 7 000 ₸</b></div>
+        <div><span>03</span><strong>Нос</strong><b>от 7 500 ₸</b></div>
+        <div><span>04</span><strong>Индастриал</strong><b>от 9 000 ₸</b></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div>
+        <p class="eyebrow">03 / ABOUT</p>
+        <h2>Чисто.<br>Спокойно.<br>По-твоему.</h2>
+      </div>
+      <p>
+        
+      </p>
+    </section>
+
+    <section id="booking" class="booking section">
+      <p class="eyebrow">04 / BOOKING</p>
+      <h2>Записаться</h2>
+      <form id="bookingForm">
+        <input type="text" placeholder="Имя" required>
+        <input type="tel" placeholder="Телефон" required>
+        <select required>
+          <option value="">Выберите услугу</option>
+          <option>Мочка уха</option>
+          <option>Helix</option>
+          <option>Нос</option>
+          <option>Индастриал</option>
+        </select>
+        <button class="button" type="submit">Отправить заявку</button>
+      </form>
+      <p id="message" class="message"></p>
+    </section>
+  </main>
+
+  <footer>NEEDLE. / Piercing Studio / 2026</footer>
+  <script src="script.js"></script>
+</body>
+</html>
