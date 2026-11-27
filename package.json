@@ -1,0 +1,21 @@
+{
+  "name": "piercing-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elagins47/my-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elagins47/my-website/issues"
+  },
+  "homepage": "https://github.com/elagins47/my-website#readme",
+  "devDependencies": {
+    "eslint": "^10.15.0"
+  }
+}
